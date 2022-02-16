@@ -1,0 +1,16 @@
+﻿<Page
+    x:Class="CalculatorApp.goodbyePage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:CalculatorApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <TextBox HorizontalAlignment="Center" Text="Goodbye!" TextWrapping="Wrap" VerticalAlignment="Center"/>
+        <Button x:Name="CalcBack_Button" Content="Back to Calculator" Margin="0,416,0,0" VerticalAlignment="Top" HorizontalAlignment="Center" Click="CalcBack_Button_Click" BorderBrush="#FF424141" Background="#FF3DCA08" FontSize="22" FontWeight="Bold"/>
+
+    </Grid>
+</Page>
